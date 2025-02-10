@@ -15,10 +15,10 @@ const ContactPage = () => {
           <p className="text-lg text-white z-20">Sorularınız için bizimle iletişime geçin.</p>
           <div className="flex space-x-6 justify-center lg:justify-start z-20">
             {[
-              { icon: FaFacebook, link: "https://www.facebook.com/engintasarim.com.tr/" },
-              { icon: FaTwitter, link: "https://x.com/engintasarim" },
-              { icon: FaInstagram, link: "https://www.instagram.com/engin_tasarim/" },
-              { icon: FaLinkedin, link: "https://www.linkedin.com/company/engintasarim/posts/?feedView=all" }
+              { icon: FaFacebook, link: "" },
+              { icon: FaTwitter, link: "" },
+              { icon: FaInstagram, link: "" },
+              { icon: FaLinkedin, link: "" }
             ].map(({ icon: Icon, link }, i) => (
               <a key={i} href={link} target="_blank" className="text-orange-600 hover:text-[#FF9A30] transition-all">
                 <Icon size="2em" />
@@ -61,7 +61,7 @@ const ContactPage = () => {
         <h3 className="text-3xl text-orange-600 mb-8 text-center lg:text-left relative z-20">Bizi Haritada Gör</h3>
         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.352064414799!2d28.794581975512106!3d40.97377102154976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa3b3dd3dd0f9%3A0x554eeb219786c3aa!2zxZ5lbmxpa2vDtnksIEdlcm1leWFuIFNrLiBObzoyMSBEOjMsIDM0MTUzIEJha8SxcmvDtnkvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1738004189522!5m2!1str!2str"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.1794606999697!2d32.553111475356154!3d37.90286780477183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d085fc1b13876b%3A0x17bfdbd2297b6fe0!2sMGTORK%20-%20Bur%C3%A7lu%20V%20Kasnak%20-%20Konik%20Bur%C3%A7%20-%20Kaplinler%20-%20Konik%20Kilitler!5e0!3m2!1str!2str!4v1739188358914!5m2!1str!2str"
             width="100%"
             height="100%"
             className="absolute inset-0 border-0 rounded-lg"
